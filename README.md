@@ -7,5 +7,7 @@ Still very much a WIP.
 ## Run
 
 ```sh
-make
-
+cmake -S . -B build
+cmake --build build
+./build/chip8_emulator path/to/rom.ch8
+```
